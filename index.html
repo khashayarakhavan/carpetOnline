@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sasscandy</title>
+    <link rel="stylesheet" href="./assets/libs/OwlCarousel-2/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./dist/css/iconfont/tabler-icons.css">
+    <link rel="stylesheet" href="./dist/css/style.css">
+</head>
+<body class="app" data-theme="light">
+    <!------------------------------>
+    <!-- Header Start -->
+    <!------------------------------>
+    <header class="main-header position-fixed w-100">
+            <div class="container">
+                <nav class="navbar navbar-expand-xl py-0">
+                    <div class="logo">
+                        <a class="navbar-brand py-0 me-0" href="#">
+                            <picture>
+                                <source  type="image/svg" id="sourceTestChecker" media="(min-width: 769px)" srcset="./assets/images/logo/Carpet_Wide.svg  1920w,
+                                     ./assets/images/logo/Carpet_Wide.svg 769px" sizes="(min-width: 1920px) 10vw, (min-width: 1024px) 8vw, 5vw"/>
+                                <source  type="image/svg" media="(min-width: 350px)" srcset="./assets/images/logo/Carpet_Wide.svg 700w,
+                                     ./assets/images/logo/Carpet_Wide.svg 350w" sizes="(min-width: 700px) 12vw, (min-width: 350px) 10vw, 8vw"/>
+                                <img src="./assets/images/logo/Carpet_Wide.svg" class="picture-m" alt="Hezaveh Carpet's Logo" />
+                            </picture>
+                        </a>
+                    </div>
+                    <a class="d-inline-block d-lg-block d-xl-none d-xxl-none  nav-toggler text-decoration-none"  data-bs-toggle="offcanvas" href="#offcanvasExample" aria-controls="offcanvasExample">
+                        <i class="ti ti-menu-2 text-warning"></i>
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">                                             
+                            <ul class="navbar-nav me-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link text-capitalize" aria-current="page" href="#service-section-m">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-capitalize pricing-m" href="#section-video-m">Videos</a>
+                                </li>
+                               
+                                <li class="nav-item">
+                                    <a class="nav-link text-capitalize" href="#our-store">Our Crafts</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-capitalize" href="#section-gallery">Gallery</a>
+                                </li>
+                            </ul>
+                            <div class="d-flex align-items-center">
+                                <!-- <div class="input-group  search">
+                                    <button class="btn border-0 p-0" type="button" id="button-addon1"><i class="ti ti-search text-white"></i></button>
+                                    <input type="text" class="form-control border-0 bg-transparent ps-2" placeholder="search" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                                </div> -->
+                                <a href="#contact-us-m" class="btn btn-warning btn-hover-secondery text-capitalize " >Contact Us</a>
+                            </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="offcanvas offcanvas-start"  tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <div class="logo">
+                        <a class="navbar-brand py-0 me-0" href="#"><img src="./assets/images/Creato-logo.svg" alt=""></a>
+                    </div> 
+                    <button type="button" class="btn-close text-reset  ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"><i class="ti ti-x text-warning"></i></button>
+                </div>
+                <div class="offcanvas-body pt-0">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-capitalize" aria-current="page" href="#service-section-m">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-capitalize"href="#section-video-m">Videos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-capitalize"  href="#our-store">Our Crafts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-capitalize" href="#section-gallery">Gallery</a>
+                        </li>
+                        </ul>
+                        <div class="login d-block align-items-center mt-3">
+                            <a class="btn btn-warning text-capitalize w-100" href="#contact-us-m">contact us</a>
+                        </div>
+                </div>
+            </div>
+    </header>
+    <!------------------------------>
+     <!-- Header End  -->
+    <!------------------------------>
+
+    <!------------------------------>
+    <!--- Hero Banner Start--------->
+    <!------------------------------>
+    <section class="hero-banner position-relative overflow-hidden">
+        <div class="container">
+            <div class="row d-flex flex-wrap align-items-center">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="position-relative left-hero-color">
+                        <h1 class="mb-0 fw-bold">
+                            He<span >z</span>aveh Persian Carpets<br/>
+                            
+                        </h1>
+                        <div class="breaker-line"></div>
+                        <p>Your last destination to find the best.</p>
+                        <a href="#service-section-m" class="btn btn-warning btn-hover-secondery ">
+                            <span class="d-inline-block me-2">
+                                <i class="ti ti-playstation-triangle"></i>
+                            </span> Begin your Journey 
+                            <small class="with-us">with us</small>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="myCenter position-relative right-hero-color">
+                        <!-- <img src="./assets/images/hero-image/fotor.jpg" class="img-fluid">  -->
+                        <div class="my-blob img-fluid"> 
+                    </div>          
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------------>
+    <!--- Hero Banner End--------->
+    <!------------------------------>
+
+    <!------------------------------>
+    <!--- Service sectin Start------>
+    <!------------------------------>
+    <section id="service-section-m" class="service position-relative overflow-hidden">
+        <div class="container position-relative">
+            <img src="./assets/images/service/dot-shape.png" class="shape position-absolute">
+            <div class="row">
+                <div class="col-12"><small class="fs-7 d-block">We Offer</small></div>
+                <div class="col-12 d-xxl-flex d-xl-flex d-lg-flex d-md-flex d-sm-block d-block align-items-center justify-content-xxl-between justify-content-xl-between justify-content-lg-between justify-content-md-between justify-content-sm-between justify-content-sm-center ">
+                    <h2 class="fs-2 text-black mb-0">The Best of Iran,<br>Handpicked for you </h2>
+                    <a href="#section-video-m" class="btn btn-warning btn-hover-secondery section-btn">All Services</a>
+                </div>
+            </div>
+            <div class="row d-flex flex-wrap justify-content-center step-row">
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 text-center card-item">
+                    <div class="card border-0 shadow">
+                        <div class="card-body">
+                            <div class="icon-round overflow-hidden rounded-circle position-relative d-flex align-items-center justify-content-center mx-auto text-center">
+                                <i class="ti ti-brand-appgallery text-primary position-relative"></i>
+                            </div>
+                            <h5 class="mb-0 fw-500">Not Sure?</h5>
+                            <h3 class="fs-4">Browse our gallery</h3>
+                            <p class="fs-7 mb-0 fw-500">There are many variations and styles available at our gallery. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 text-center card-item">
+                    <div class="card border-0 shadow">
+                        <div class="card-body">
+                            <div class="icon-round overflow-hidden rounded-circle position-relative d-flex align-items-center justify-content-center mx-auto text-center">
+                                <i class="ti ti-zoom-money text-primary position-relative"></i>
+                            </div>
+                            <h5 class="mb-0 fw-500">Ready?</h5>
+                            <h3 class="fs-4">Pay as you wish</h3>
+                            <p class="fs-7 mb-0 fw-500">We accept Credit Card, Paypal & Crypto, just to name a few.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 text-center card-item">
+                    <div class="card border-0 shadow">
+                        <div class="card-body">
+                            <div class="icon-round overflow-hidden rounded-circle position-relative d-flex align-items-center justify-content-center mx-auto text-center">
+                                <i class="ti ti-gift text-primary position-relative"></i>
+                            </div>
+                            <h5 class="mb-0 fw-500">Got it?</h5>
+                            <h3 class="fs-4">Receive your carpet</h3>
+                            <p class="fs-7 mb-0 fw-500">We deliver our products accross Euro zone and the States.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sectio Video Background and Video Popup Starts HERE !!! -->
+    <section id="section-video-m" class="service position-relative overflow-hidden">
+        <div class="container-wide-m position-relative">
+            <div class="slider-m">
+                <div class="video-container-m">
+                    <div id="overlay-m" class="overlay-m"></div>
+                    <div id="overlay-poster-m" class="overlay-poster-m"></div>
+                    <video  id="video-bg-my" class="transition-m" preload="metadata" muted playsinline onloadedmetadata="this.muted = true"
+                        onended="playVideo(this)">
+                        <source type="video/mp4" src="./assets/videos/lowMp4.mp4" media="all and (min-width:769px)">
+                        <source type="video/webm" src="./assets/videos/lowWebm.webm" media="all and (min-width:769px)">
+                        <source type="video/mp4" src="./assets/videos/extLowMp4.mp4" media="all and (min-width:480px) and (max-width:768px)">
+                        <source type="video/webm" src="./assets/videos/extLowWebm.webm" media="all and (min-width:480px) and (max-width:768px)">
+                        <small>THIS BROWSER DOES NOT HAVE NATIVE VIDEO SUPPORT</small>
+                    </video>
+                </div>
+                <div class="slider-message-container-m">
+                    <h1>We Live With Carpet</h1>
+                    <p class="desc-m">Discover the magic of the Grand Bazaar in our 2-minute video documentary.</p>
+                    <button id="md-trigger" class="btn btn-warning btn-hover-secondery md-trigger" 
+                        data-url="./assets/videos/lowMp4.mp4" 
+                        data-toggle="modal" 
+                        data-target="#myModal" 
+                        title="XJj2PbenIsU">
+                        <span class="d-inline-block me-2">
+                            <i class="ti ti-playstation-triangle"></i>
+                        </span> 
+                        Click To Play
+                    </button>
+                </div>
+                <!-- My Video Popup Modal Starts -->
+                <!--  popup   -->
+            </div>
+            <div class="md-modal md-effect-1" id="modal-1">
+                <div class="md-content">
+                    <video class="video-popup-content" controls preload playsinline autoplay="true"
+                        onloadedmetadata="this.muted = false">
+                        <source type="video/mp4" src="./assets/videos/lowMp4.mp4" media="all and (min-width:769px)">
+                        <source type="video/webm" src="./assets/videos/lowWebm.webm" media="all and (min-width:769px)">
+                        <source type="video/mp4" src="./assets/videos/extLowMp4.mp4"
+                            media="all and (min-width:480px) and (max-width:768px)">
+                        <source type="video/webm" src="./assets/videos/extLowWebm.webm"
+                            media="all and (min-width:480px) and (max-width:768px)">
+                        <small>THIS BROWSER DOES NOT HAVE NATIVE VIDEO SUPPORT</small>
+                    </video>
+                    <!-- <h3 >Modal Dialog</h3> -->
+                    <!-- <button class="md-close" id="md-close">Close me!</button> -->
+                    
+                    <!-- <div class="icon-round rounded-circle md-close">
+                        <i class="ti ti-gift"></i>
+                    </div> -->
+                    <!-- <span class="md-close btn-label"><i class="glyphicon glyphicon-ok"></i> -->
+                    <!-- <i class="md-close fa fa-users icon"></i> -->
+                    <!-- <i id="md-close" class="md-close">x</i> -->
+                    <!-- <a href="#service-section-m" class="btn btn-warning btn-hover-secondery ">
+                        <span class="d-inline-block me-2">
+                            <i class="ti ti-playstation-triangle"></i>
+                        </span> Begin your Journey
+                        <small class="with-us">with us</small>
+                    </a> -->
+                    <!-- btn btn-warning btn-hover-secondery -->
+                    <!-- width="124" height="124" -->
+                    <a id="md-close" href="#our-service" class="btn-hover-secondery md-close">
+                        <div class="svg-container">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0"
+                            viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve" >
+                            <g id="icon-x-close">
+                                <path 
+                                    d="M30.3448276,31.4576271 C29.9059965,31.4572473 29.4852797,31.2855701 29.1751724,30.980339 L0.485517241,2.77694915 C-0.122171278,2.13584324 -0.104240278,1.13679247 0.52607603,0.517159487 C1.15639234,-0.102473494 2.17266813,-0.120100579 2.82482759,0.477288136 L31.5144828,28.680678 C31.9872448,29.1460053 32.1285698,29.8453523 31.8726333,30.4529866 C31.6166968,31.0606209 31.0138299,31.4570487 30.3448276,31.4576271 Z"
+                                    id="Shape"></path>
+                                <path
+                                    d="M1.65517241,31.4576271 C0.986170142,31.4570487 0.383303157,31.0606209 0.127366673,30.4529866 C-0.12856981,29.8453523 0.0127551942,29.1460053 0.485517241,28.680678 L29.1751724,0.477288136 C29.8273319,-0.120100579 30.8436077,-0.102473494 31.473924,0.517159487 C32.1042403,1.13679247 32.1221713,2.13584324 31.5144828,2.77694915 L2.82482759,30.980339 C2.51472031,31.2855701 2.09400353,31.4572473 1.65517241,31.4576271 Z"
+                                    id="Shape"></path>
+                            </g>
+                        </svg>
+                        </div>
+                    </a>
+              
+                    <div>
+                        <!-- <p>This is a modal window. You can do the following things with it:</p> -->
+                        <!-- <button class="md-close" id="md-close">Close me!</button> -->
+                    </div>
+                </div>
+            </div>
+            <div id="md-overlay" class="md-overlay"></div>
+            <!-- My Video Popup Modal Ends -->
+        </div>
+    </section>
+    
+    <!-- <video class="video-popup-content" preload playsinline autoplay="true" src="./assets/videos/lowMp4.mp4">
+    </video> -->
+    <!-- Sectio Video Background and Video Popup ENDS HERE !!! -->
+
+
+    <!------------------------------>
+    <!--- Service sectin Start------>
+    <!------------------------------>
+    
+    <!---------------------------------->
+    <!--- Our Service sectin Start------>
+    <!---------------------------------->
+    <section id="our-store" class="our-service position-relative overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-8 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <img src="./assets/images/our-service/carpet-bg.svg" class="img-fluid"> 
+                </div>
+                <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ps-xxl-0 ps-xl-0 ps-lg-3 ps-md-3 ps-sm-3 ps-3">
+                    <small class="fs-7 d-block">Our Service</small>
+                    <h2 class="fs-2 text-black mb-0">We Are Carpet Specialists</h2>
+                    <p class="mb-0 fw-500 fs-7">
+                        Just visit one of our virutal, brick&mortar or social-app stores to pick your favourite carpet from a rare collection of original Persian crafts.
+                    </p>
+                    <ul class="list-unstyled mb-0 pl-0">
+                        <li class="d-flex flex-wrap align-items-start">
+                            <i class="ti ti-circle-check fs-4 pe-2"></i>
+                            <span class="fs-7 text-black">Quality Guaranteed For A Lifetime.</span>
+                        </li>
+                        <li class="d-flex flex-wrap align-items-start">
+                            <i class="ti ti-circle-check fs-4 pe-2"></i>
+                            <span class="fs-7 text-black">Free 2-Day Delivery in Poland.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!------------------------------>
+    <!--- Our Service sectin End---->
+    <!------------------------------>
+    
+    <!------------------------------>
+    <!-- Portfolio section Start---->
+    <!------------------------------>
+    <section id="section-gallery" class="portfolio position-relative bg-primary">
+        <div class="container position-relative">
+            <div class="row">
+                <div class="col-12"><small class="fs-7 d-block text-warning">Find</small></div>
+                <div class="col-12 d-xxl-flex d-xl-flex d-lg-flex d-md-flex d-sm-block d-block align-items-center justify-content-xxl-between justify-content-xl-between justify-content-lg-between justify-content-md-between justify-content-sm-between justify-content-sm-center ">
+                    <h2 class="fs-3 text-white mb-0">Original Carpets<br> for your oriental design.</h2>
+                    <a href="#contact-us-m" class="btn btn-warning btn-hover-secondery section-btn">Place an Order</a>
+                </div>
+            </div>
+            <div class="row d-flex flex-wrap justify-content-center step-row">
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+                    <div class="card bg-transparent">
+                        <div class="card-body">
+                            <div class="icon mx-auto rounded-circle d-flex justify-content-center align-items-center"><i class="ti ti-brand-github text-white"></i></div>
+                            <h3 class="fs-4 text-white">Authentic</h3>
+                            <p class="fs-7 mb-0 fw-500">We only provide 100% gauranteed crafts with verified origins.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+                    <div class="card bg-transparent">
+                        <div class="card-body">
+                            <div class="icon  mx-auto rounded-circle d-flex justify-content-center align-items-center"><i class="ti ti-crown text-white"></i></div>
+                            <h3 class="fs-4 text-white">Available</h3>
+                            <p class="fs-7 mb-0 fw-500">You can feel the extraordinary texture of our high-quality fabric in our stores.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+                    <div class="card bg-transparent">
+                        <div class="card-body">
+                            <div class="icon mx-auto rounded-circle d-flex justify-content-center align-items-center"><i class="ti ti-message-circle-2 text-white"></i></div>
+                            <h3 class="fs-4 text-white">All-in-one</h3>
+                            <p class="fs-7 mb-0 fw-500">We offer post-sales solutions to our customers, inclduing design.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container position-relative" >
+            <div class="portfolio-wrap">
+                <div class="owl-carousel owl-theme portfolio-slider">
+                        <div class="item"><a href="#"><img src="./assets/images/hero-image/9.jpg" class="w-100 h-100"></a></div>
+                        <div class="item"><a href="#"><img src="./assets/images/hero-image/10.jpg" class="w-100 h-100"></a></div>
+                        <div class="item"><a href="#"><img src="./assets/images/hero-image/9.jpg" class="w-100 h-100"></a></div>
+                        <div class="item"><a href="#"><img src="./assets/images/hero-image/10.jpg" class="w-100 h-100"></a></div>
+                        <div class="item"><a href="#"><img src="./assets/images/hero-image/9.jpg" class="w-100"></a></div>
+                </div>
+            </div>    
+        </div>    
+    </section>
+    <!------------------------------>
+    <!-- Portfolio section End ----->
+    <!------------------------------>
+
+    <!------------------------------>
+    <!-- Pricing section Start------>
+    <!------------------------------>
+    <!-- <section class="pricing position-relative overflow-hidden">
+        <div class="container position-relative">
+            <div class="row justify-content-center">
+                <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+                    <small class="fs-7 d-block">Pricing Plan</small>
+                    <h2 class="fs-3 pricing-head text-black mb-0 position-relative">What’s About Our Pricing Subscription</h2>
+                </div>
+            </div>
+            <div class="row plans">
+                <div class="col-12 text-center">
+                    <div class="form-check form-switch d-flex justify-content-center ps-0 align-items-center">
+                        <label class="form-check-label text-black fs-7" for="flexSwitchCheckChecked">Monthly</label>
+                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                        <label class="form-check-label text-black fs-7" for="flexSwitchCheckChecked">Yearly</label>
+                    </div>
+                    <div class="save d-inline-block position-relative text-warning fw-500 fs-9 text-center">Save Up To 58%</div>
+                </div>
+            </div>
+            <div class="row justify-content-center price-plan">
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="card position-relative shadow border-0 h-100">
+                        <div class="card-body pb-4">
+                            <small class="fs-7 d-block text-warning text-center">Personal</small>
+                            <h2 class="mb-4 text-center position-relative"><sub class="fs-2 text-black">0</sub><sup class="fs-6 position-absolute">$</sup></h2>
+                            <small class="fs-7 d-block text-center">Free</small>
+                            <p class="fs-7 text-center fw-500">For individuals looking for a simple CRM solution</p>
+                            <ul class="list-unstyled mb-0 pl-0">
+                                <li class="d-flex align-items-start">
+                                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                                    <span class="fs-7 text-black">Basic CRM features</span>
+                                </li>
+                                <li class="d-flex align-items-start">
+                                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                                    <span class="fs-7 text-black">Unlimited Personal Pipelines</span>
+                                </li>
+                                <li class="d-flex align-items-start">
+                                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                                    <span class="fs-7 text-black">Email Power Tools</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-action text-center pb-xxl-5 pb-xl-5 pb-lg-5 pb-md-4 pb-sm-4 pb-4">
+                            <a href="#" class="btn btn-warning btn-hover-secondery text-capitalize">Set Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="card position-relative shadow border-0 h-100">
+                        <div class="position-absolute badge bg-warning d-inline-block mx-auto">
+                            Most Popular
+                        </div>
+                        <div class="card-body pb-4">
+                            <small class="fs-7 d-block text-warning text-center">Professional</small>
+                            <h2 class="mb-4 text-center position-relative"><sub class="fs-2 text-black">49</sub><sup class="fs-6 position-absolute">$</sup></h2>
+                            <small class="fs-7 d-block text-center">Free</small>
+                            <p class="fs-7 text-center fw-500">For individuals looking for a simple CRM solution</p>
+                            <ul class="list-unstyled mb-0 pl-0">
+                                <li class="d-flex align-items-start">
+                                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                                    <span class="fs-7 text-black">Basic CRM features</span>
+                                </li>
+                                <li class="d-flex align-items-start">
+                                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                                    <span class="fs-7 text-black">Unlimited Personal Pipelines</span>
+                                </li>
+                                <li class="d-flex align-items-start">
+                                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                                    <span class="fs-7 text-black">Email Power Tools</span>
+                                </li>
+                                <li class="d-flex align-items-start">
+                                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                                    <span class="fs-7 text-black">Unlimited Shared Pipelines</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-action text-center pb-xxl-5 pb-xl-5 pb-lg-5 pb-md-4 pb-sm-4 pb-4">
+                            <a href="#" class="btn btn-warning btn-hover-secondery text-capitalize">Set Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="card position-relative shadow border-0 h-100">
+                        <div class="card-body pb-4">
+                            <small class="fs-7 d-block text-warning text-center">Enterprise</small>
+                            <h2 class="mb-4 text-center position-relative"><sub class="fs-2 text-black">99</sub><sup class="fs-6 position-absolute">$</sup></h2>
+                            <small class="fs-7 d-block text-center">Free</small>
+                            <p class="fs-7 text-center fw-500">For individuals looking for a simple CRM solution</p>
+                            <ul class="list-unstyled mb-0 pl-0">
+                                <li class="d-flex align-items-start">
+                                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                                    <span class="fs-7 text-black">Basic CRM features</span>
+                                </li>
+                                <li class="d-flex align-items-start">
+                                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                                    <span class="fs-7 text-black">Unlimited Personal Pipelines</span>
+                                </li>
+                                <li class="d-flex align-items-start">
+                                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                                    <span class="fs-7 text-black">Email Power Tools</span>
+                                </li>
+                                <li class="d-flex align-items-start">
+                                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                                    <span class="fs-7 text-black">Unlimited Shared Pipelines</span>
+                                </li>
+                                <li class="d-flex align-items-start">
+                                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                                    <span class="fs-7 text-black"> Full API Access</span>
+                                </li>               
+                            </ul>
+                        </div>
+                        <div class="card-action text-center pb-xxl-5 pb-xl-5 pb-lg-5 pb-md-4 pb-sm-4 pb-4">
+                            <a href="#" class="btn btn-warning btn-hover-secondery text-capitalize">Set Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!------------------------------>
+    <!-- Pricing section End-------->
+    <!------------------------------>
+
+    <!------------------------------>
+    <!------ FAQ section Start------>
+    <!------------------------------>
+    <section class="faq position-relative overflow-hidden faq-m">
+        <div class="container position-relative">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <small class="fs-7 d-block">Frequently Asked Questions About Carpets</small>
+                    <h2 class="fs-3 text-black mb-0">Want to ask something from us?</h2>
+                </div>
+            </div>
+            <div class="accordion-block">
+                    <div class="accordion row" id="accordionPanelsStayOpenExample">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                  <button class="accordion-button text-black fs-7" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                      Do you only sell carpets?
+                                  </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                  <div class="accordion-body fs-7 fw-500 pt-0">
+                                      We provide different types of persian fabric crafts, including carpets, rugs, guilded silk.
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                  <button class="accordion-button collapsed text-black fs-7" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                      There are many variations ?
+                                  </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                  <div class="accordion-body fs-7 fw-500 pt-0">
+                                      We own a carefully selected collection of best styles, patterns, colors and fabric variations.
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                  <button class="accordion-button collapsed text-black fs-7" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                      Do you accept Paypal or Bitcoin?
+                                  </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                  <div class="accordion-body fs-7 fw-500 pt-0">
+                                      Yes, We willingly accept different types of payments including Paypal, Bitcoin, altcoins and other payment methods.
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingfour">
+                                  <button class="accordion-button collapsed text-black fs-7" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="false" aria-controls="panelsStayOpen-collapsefour">
+                                    Do you accept VIP requests?
+                                  </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingfour">
+                                  <div class="accordion-body fs-7 fw-500 pt-0">
+                                      We provide all-in-one solutions to our VIP customers including desing, order placement, import, guarantee and post-sales.
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingfive">
+                                  <button class="accordion-button collapsed text-black fs-7" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefive" aria-expanded="false" aria-controls="panelsStayOpen-collapsefive">
+                                    Are there any special offers or discounts?
+                                  </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapsefive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingfour">
+                                  <div class="accordion-body fs-7 fw-500 pt-0">
+                                      We randomly select a selection of our store items and offer them at a lucrative price for a very limited time period.
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingsix">
+                                  <button class="accordion-button collapsed text-black fs-7" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsesix" aria-expanded="false" aria-controls="panelsStayOpen-collapsesix">
+                                    Do you deliver in Canada, US or Australia ?
+                                  </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapsesix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingsix">
+                                  <div class="accordion-body fs-7 fw-500 pt-0">
+                                      We currently run our business locally in Poland but we are always happy to process special order for our dear overseas customers.
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------------>
+    <!------ FAQ section End------>
+    <!------------------------------>    
+    
+    <!------------------------------>
+    <!-----Contact section Start---->
+    <!------------------------------>
+    <section class="contact bg-primary position-relative overflow-hidden hidden-selector" id="contact-us-m">
+        <div class="container position-relative">
+            <div class="dots-shape-left position-absolute"><img src="./assets/images/icons/dot-shape.png"></div>
+            <div class="dots-shape-right position-absolute"><img src="./assets/images/icons/dot-shape.png"></div>
+            <div class="row">
+                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
+                    <small class="fs-7 d-block text-warning">Direct us Now</small>
+                    <h2 class="fs-3 text-white mb-0">Ready to start your journey with us?</h2>
+                    <div class="owl-carousel owl-theme testimonial">
+                        <div class="item">
+                            <div class="details position-relative">
+                                <p class="fs-5 fw-light blue-light mb-4">
+                                    I had a fabulous experience with Hezaveh carpets company and will definitely come back soon.
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <div class="avtar-img rounded-circle overflow-hidden"><img src="./assets/images/contact/feynman.png" class="img-fluid"></div>
+                                    <div class="name ps-3">
+                                        <h6 class="text-white">Richard Feynman</h6>
+                                        <small class="d-block blue-light fw-500 fs-10 pb-0">VIP Customer</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="details position-relative">
+                                <p class="fs-5 fw-light blue-light mb-4">
+                                    Nothing compares to a seamless experience with a team of experts who know the crafts inside out.
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <div class="avtar-img rounded-circle overflow-hidden"><img src="./assets/images/contact/freud.png" class="img-fluid"></div>
+                                    <div class="name ps-3">
+                                        <h6 class="text-white">Sigmund Freud</h6>
+                                        <small class="d-block blue-light fw-500 fs-10 pb-0">B2B Customer</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                        
+                </div>
+                <!-- <div class="hidden-selector"></div> -->
+                <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+                    <form class="position-relative">
+                        <div class="row ps-xxl-5 ps-xl-5 ps-lg-3 ps-md-0 ps-sm-0 ps-0">
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <div class="form-group">
+                                    <label class="form-label text-white fs-7 mb-3">Full Name</label>
+                                    <input  type="text" class="form-control border-0" placeholder="Enter your name">
+                                </div>
+                            </div>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <div class="form-group">
+                                    <label class="form-label text-white fs-7 mb-3">User Name</label>
+                                    <input type="text" class="form-control border-0" placeholder="Enter your username">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label class="form-label text-white fs-7 mb-3">Email address</label>
+                                    <input type="email" class="form-control border-0" placeholder="Enter your email address">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label class="form-label text-white fs-7 mb-3">Email Password</label>
+                                    <input type="text" class="form-control border-0" placeholder="Enter your password">
+                                </div>
+                            </div>
+                            
+                            <div class="agree fs-7 fw-500">
+                                By clicking on the Sign Up button, you agree to Rakon.<br><a href="#" class="text-warning text-decoration-none">terms and conditions of use.</a>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-warning btn-hover-secondery text-capitalize mt-2 w-auto contact-btn">Message Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- <div class="trusted-companies">
+                <div class="row justify-content-center">
+                    <div class="col-xx-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                        <h3 class="fs-7 mb-0 text-white text-center">Trusted by content creators across the world</h3>
+                        <ul class="d-flex flex-wrap align-items-center list-unstyled mb-0 pl-0 owl-carousel owl-theme trusted-logos">
+                            <li class="text-center item"><a href="#"><img src="./assets/images/contact/google.svg"></a></li>
+                            <li class="text-center item"><a href="#"><img src="./assets/images/contact/microsoft.svg"></a></li>
+                            <li class="text-center item"><a href="#"><img src="./assets/images/contact/amazon.svg"></a></li>
+                            <li class="text-center item"><a href="#"><img src="./assets/images/contact/unique.svg"></a></li>
+                            <li class="text-center item"><a href="#"><img src="./assets/images/contact/google.svg"></a></li>
+                            <li class="text-center item"><a href="#"><img src="./assets/images/contact/microsoft.svg"></a></li>
+                            <li class="text-center item"><a href="#"><img src="./assets/images/contact/amazon.svg"></a></li>
+                            <li class="text-center item"><a href="#"><img src="./assets/images/contact/unique.svg"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>       
+    <!------------------------------>
+    <!-----Contact section End----->
+    <!------------------------------>
+
+    <!------------------------------>
+    <!-----Footer Start------------->
+    <!------------------------------>
+    <footer class="footer footer-m">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                    <div class="footer-logo-col">
+                        <a href="#"><img src="./assets/images/logo/Carpet_Wide.svg"></a>
+                        <p class=" mb-0 fs-7 fw-500">Hezaveh Company is an authentic, elegant, and searmless experience for you to find your dream home decor.</p>
+                        <div class="callus text-white fw-500 fs-7">
+                            Shahryar Akh
+                            <div class="">Call us: <a href="#" class="text-warning fw-500 fs-7 text-decoration-none">+98-920-3016174</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-6 col-sm-12">
+                    <h5 class="text-white">Social</h5>
+                    <ul class="list-unstyled mb-0 pl-0 footer-mm">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-6 col-sm-12">
+                    <h5 class="text-white">Company</h5>
+                    <ul class="list-unstyled mb-0 pl-0 footer-mm">
+                        <li><a href="#" >About</a></li>
+                        <li><a href="#">Affiliates</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Legal & Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                    <div class="subscribe">
+                        <h5 class="text-white">Subscribe</h5>
+                        <p class=" fw-500">Subscribe to get the latest news form us
+                        </p>
+                        <div class="input-group">
+                            <input type="email" class="form-control br-15" placeholder="Enter email address" aria-label="Enter email address" aria-describedby="button-addon2">
+                            <button class="btn btn-warning btn-hover-secondery ms-xxl-2 ms-xl-2 ls-lg-0 ms-md-0 ms-sm-0 ms-0"  type="button" id="button-addon2">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyrights text-center   fw-500">@<span id="autodate">2023</span> - All Rights Reserved by <a href="" class=" text-decoration-none">hasanqoli.com</a></div>
+        </div>
+    </footer>
+    <!------------------------------>
+    <!-------Footer End------------->
+    <!------------------------------>
+
+    
+    <script src="./dist/js/jquery.min.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="./assets/libs/OwlCarousel-2/dist/owl.carousel.min.js"></script>
+    <script src="./dist/js/custom.js"></script>
+    <script src="./dist/js/modal.js"></script>
+
+</body>
+</html>

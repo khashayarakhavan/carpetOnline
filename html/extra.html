@@ -1,0 +1,230 @@
+
+<div style="display: inline-block; background-color: black">
+    <video class="transition-m fading-m" muted autoplay playsinline onloadedmetadata="this.muted = true"
+        oncanplay="playVideo(this)" onended="playVideo(this)">
+        <source src="./sample.mp4">
+    </video>
+</div>
+
+
+<picture>
+    <source media="(max-width: 414px)" srcset="/img/html/vangogh-sm.jpg">
+    <source media="(max-width: 768px)" srcset="/img/html/vangogh.jpg">
+    <source media="print" srcset="/img/html/vangogh-bw.jpg">
+    <img src="/img/html/vangogh-lg.jpg" alt="Vincent Van Gogh">
+</picture>
+
+<img src="http://placehold.jp/3840x3840.png" srcset="http://placehold.jp/3840x3840.png 3840w,
+            http://placehold.jp/2048x2048.png 2048w,
+            http://placehold.jp/1920x1920.png 1920w,
+            http://placehold.jp/1200x1200.png 1200w,
+            http://placehold.jp/1080x1080.png 1080w,
+            http://placehold.jp/828x828.png 828w,
+            http://placehold.jp/750x750.png 750w,
+            http://placehold.jp/640x640.png 640w" sizes="(max-width: 480px) 100vw, 
+            (max-width: 1024px) 50vw, 
+            33vw" />
+
+
+
+
+
+<picture>
+    <source srcset="/images/cereal-box.webp" type="image/webp" media="(min-width: 1000px)" />
+    <source srcset="/images/cereal-box.jp2" type="image/jp2" media="(min-width: 600px)" />
+    <img src="/images/cereal-box.jxr" type="image/vnd.ms-photo"  alt="Baby Sleeping" />
+</picture>
+
+
+<picture>
+    <source srcset="
+      baby-zoomed-out-2x.jpg 2x,
+      baby-zoomed-out.jpg
+    " media="(min-width: 1000px)" />
+    <source srcset="
+      baby-2x.jpg 2x,
+      baby.jpg
+    " media="(min-width: 600px)" />
+    <img srcset="
+      baby-zoomed-out-2x.jpg 2x
+    " src="baby-zoomed-out.jpg" alt="Baby Sleeping" />
+</picture>
+
+
+<img alt="A baby smiling with a yellow headband." srcset="
+    baby-s.jpg  300w,
+    baby-m.jpg  600w,
+    baby-l.jpg  1200w,
+    baby-xl.jpg 2000w
+  " sizes="
+    (min-width: 2420px) 2000px, 
+    (min-width: 720px) calc(94.76vw - 274px), 
+    (min-width: 520px) calc(100vw - 96px), 
+    calc(100vw - 32px)
+  ">
+
+<img ... >
+
+
+
+
+
+
+<picture>
+    <source media="(min-width: 36em)" srcset="large.jpg  1024w,
+         medium.jpg 640w,
+         small.jpg  320w" sizes="33.3vw" />
+    <source srcset="cropped-large.jpg 2x,
+         cropped-small.jpg 1x" />
+    <img src="small.jpg" alt="A rad wolf" />
+</picture>
+
+<img srcset="large.jpg  1024w,
+      medium.jpg 640w,
+      small.jpg  320w" sizes="(min-width: 36em) 33.3vw,
+      100vw" src="small.jpg" alt="A rad wolf" />
+
+
+
+<!-- Video Manual Play and Pause on Loaded -->
+<video class="transition fading" muted autoplay playsinline onloadedmetadata="this.muted = true"
+    oncanplay="playVideo(this)" onended="playVideo(this)">
+    <source src="./sample.mp4">
+</video>
+
+
+
+<!-- -----------------------------------------------------
+----------------------------------------------------
+----------------------------------------------------
+---------------------------------------------------- -->
+
+<picture>
+    <source type="image/webp" srcset="illustration.webp">
+    <source type="image/svg+xml" srcset="illustration.svg">
+    <img src="illustration.png" alt="A hand-made illustration">
+</picture>
+
+<picture>
+    <source media="(orientation: landscape) and (min-width: 1200px)" ...>
+    <source media="(orientation: landscape)" ...>
+</picture>
+
+<picture>
+    <source media="(orientation: landscape)" srcset="image-small.png 320w, 
+image-medium.png 800w, 
+image-large.png 1200w" sizes="(min-width: 60rem) 80vw, 
+(min-width: 40rem) 90vw, 
+100vw">
+    <source media="(orientation: portrait)" srcset="image-small-portrait.png 160w, 
+image-medium-portrait.png 400w, 
+image-large-portrait.png 600w" sizes="(min-width: 60rem) 80vw, 
+(min-width: 40rem) 90vw, 
+100vw">
+    <img src="image-small.png" alt="Image description">
+</picture>
+
+
+
+sizes="(min-width: 10rem) 10px,
+(min-width: 13rem) 10px,
+5vw"
+
+sizes="(min-width: 750px) 200px,
+(min-width: 350px) 100px,
+100vw"
+
+
+
+<!-- blob css -->
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: content-box;
+}
+
+html, body {
+width: 100vw;
+height: 100vh;
+background: #0d0722;
+}
+
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+color: #fff;
+font-family: 'Exo 2';
+font-size: 24px;
+animation: fadeIn 500ms reverse;
+}
+
+.gooey{
+background-image: linear-gradient(120deg, #34e0f0 0%, #b400ff 100%);
+border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+width: 150px; height: 144px;
+animation: morph 3s linear infinite;
+transform-style: preserve-3d;
+outline: 1px solid transparent;
+will-change: border-radius;
+}
+.gooey:before,
+.gooey:after{
+content: '';
+width: 100%;
+height: 100%;
+display: block;
+position: absolute;
+left: 0; top: 0;
+border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+box-shadow: 5px 5px 89px rgba(0, 102, 255, 0.21);
+will-change: border-radius, transform, opacity;
+animation-delay: 200ms;
+background-image: linear-gradient(120deg, rgba(0,67,255,.55) 0%, rgba(0,103,255,.89) 100%);
+}
+
+.gooey:before{
+animation: morph 3s linear infinite;
+opacity: .21;
+animation-duration: 1.5s;
+}
+
+.gooey:after{
+animation: morph 3s linear infinite;
+animation-delay: 400ms;
+opacity: .89;
+content: "What'cSS up?";
+line-height: 120px;
+text-indent: -21px;
+}
+
+@keyframes morph{
+0%,100%{
+border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+transform: translate3d(0,0,0) rotateZ(0.01deg);
+}
+34%{
+border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+transform: translate3d(0,5px,0) rotateZ(0.01deg);
+}
+50%{
+opacity: .89;
+transform: translate3d(0,0,0) rotateZ(0.01deg);
+}
+67%{
+border-radius: 100% 60% 60% 100% / 100% 100% 60% 60% ;
+transform: translate3d(0,-3px,0) rotateZ(0.01deg);
+}
+}
+
+@keyframes fadeIn{
+100%{
+transform: scale(1.03);
+opacity: 0;
+}
+
+
+

@@ -8245,6 +8245,38 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+@media only screen and (min-width: 120px) and (max-width: 319px) {
+  .container, .container-wide-m {
+    --bs-gutter-x: 3.5rem; } }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .container, .container-wide-m {
+    --bs-gutter-x: 3.5rem; } }
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .container, .container-wide-m {
+    --bs-gutter-x: 3rem; } }
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  .container, .container-wide-m {
+    --bs-gutter-x: 2.5rem; } }
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  .container, .container-wide-m {
+    --bs-gutter-x: 2rem; } }
+
+@media only screen and (min-width: 1201px) and (max-width: 2559px) {
+  .container, .container-wide-m {
+    --bs-gutter-x: 1.5rem; } }
+
+@media only screen and (min-width: 2560px) and (max-width: 3439px) {
+  .container, .container-wide-m {
+    --bs-gutter-x: 1.5rem; } }
+
+@media only screen and (min-width: 3440px) {
+  .container, .container-wide-m {
+    --bs-gutter-x: 1.5rem; } }
+
 .btn {
   padding: 18px 35px;
   border-radius: 15px;
@@ -8346,25 +8378,25 @@ textarea.form-control {
   -moz-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%); }
-  @media only screen and (min-width: 120px) {
+  @media only screen and (min-width: 120px) and (max-width: 319px) {
     .md-modal {
       width: 100vw; } }
-  @media only screen and (min-width: 320px) {
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
     .md-modal {
       width: 100vw; } }
-  @media only screen and (min-width: 481px) {
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
     .md-modal {
       width: 100vw; } }
-  @media only screen and (min-width: 769px) {
+  @media only screen and (min-width: 769px) and (max-width: 1023px) {
     .md-modal {
       width: 100vw; } }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1024px) and (max-width: 1200px) {
     .md-modal {
       width: 70vw; } }
-  @media only screen and (min-width: 1201px) {
+  @media only screen and (min-width: 1201px) and (max-width: 2559px) {
     .md-modal {
       width: 50vw; } }
-  @media only screen and (min-width: 2560px) {
+  @media only screen and (min-width: 2560px) and (max-width: 3439px) {
     .md-modal {
       width: 50vw; } }
   @media only screen and (min-width: 3440px) {
@@ -8411,25 +8443,25 @@ textarea.form-control {
   transition: background-color 0.3s linear; }
   .md-close:hover {
     background-color: var(--warning); }
-  @media only screen and (min-width: 120px) {
+  @media only screen and (min-width: 120px) and (max-width: 319px) {
     .md-close {
       top: -10vw; } }
-  @media only screen and (min-width: 320px) {
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
     .md-close {
       top: -10vw; } }
-  @media only screen and (min-width: 481px) {
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
     .md-close {
       top: -5vw; } }
-  @media only screen and (min-width: 769px) {
+  @media only screen and (min-width: 769px) and (max-width: 1023px) {
     .md-close {
       top: -5vw; } }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1024px) and (max-width: 1200px) {
     .md-close {
       top: -2.5vw; } }
-  @media only screen and (min-width: 1201px) {
+  @media only screen and (min-width: 1201px) and (max-width: 2559px) {
     .md-close {
       top: -2vw; } }
-  @media only screen and (min-width: 2560px) {
+  @media only screen and (min-width: 2560px) and (max-width: 3439px) {
     .md-close {
       top: -2vw; } }
   @media only screen and (min-width: 3440px) {
@@ -8443,25 +8475,25 @@ textarea.form-control {
   display: flex;
   justify-content: center;
   align-items: center; }
-  @media only screen and (min-width: 120px) {
+  @media only screen and (min-width: 120px) and (max-width: 319px) {
     .svg-container {
       width: 10vw; } }
-  @media only screen and (min-width: 320px) {
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
     .svg-container {
       width: 10vw; } }
-  @media only screen and (min-width: 481px) {
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
     .svg-container {
       width: 5vw; } }
-  @media only screen and (min-width: 769px) {
+  @media only screen and (min-width: 769px) and (max-width: 1023px) {
     .svg-container {
       width: 5vw; } }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1024px) and (max-width: 1200px) {
     .svg-container {
       width: 2.5vw; } }
-  @media only screen and (min-width: 1201px) {
+  @media only screen and (min-width: 1201px) and (max-width: 2559px) {
     .svg-container {
       width: 2vw; } }
-  @media only screen and (min-width: 2560px) {
+  @media only screen and (min-width: 2560px) and (max-width: 3439px) {
     .svg-container {
       width: 2vw; } }
   @media only screen and (min-width: 3440px) {
@@ -8498,6 +8530,9 @@ textarea.form-control {
   -ms-transform: scale(1);
   transform: scale(1);
   opacity: 1; }
+
+.menu-mobile-m {
+  color: #718F94 !important; }
 
 .main-header {
   padding-top: 45px;
@@ -8580,6 +8615,24 @@ textarea.form-control {
   .hero-banner .left-hero-color {
     padding-top: 250px;
     z-index: 1; }
+    @media only screen and (min-width: 120px) and (max-width: 319px) {
+      .hero-banner .left-hero-color {
+        margin-top: 2rem; } }
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+      .hero-banner .left-hero-color {
+        margin-top: 2rem; } }
+    @media only screen and (min-width: 481px) and (max-width: 768px) {
+      .hero-banner .left-hero-color {
+        margin-top: 2rem; } }
+    @media only screen and (min-width: 769px) and (max-width: 1023px) {
+      .hero-banner .left-hero-color {
+        margin-top: 1rem; } }
+    @media only screen and (min-width: 1024px) and (max-width: 1200px) {
+      .hero-banner .left-hero-color {
+        margin-top: 0.5rem; } }
+    @media only screen and (min-width: 1201px) and (max-width: 2559px) {
+      .hero-banner .left-hero-color {
+        margin-top: 0.5rem; } }
     .hero-banner .left-hero-color::before {
       position: absolute;
       content: "";
@@ -8630,6 +8683,33 @@ textarea.form-control {
   border: 1px solid #718F94;
   border-width: thin; }
 
+@media only screen and (min-width: 120px) and (max-width: 319px) {
+  #service-section-m {
+    padding-bottom: 0; } }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #service-section-m {
+    padding-bottom: 0; } }
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #service-section-m {
+    padding-bottom: 0; } }
+
+@media only screen and (min-width: 120px) and (max-width: 319px) {
+  #section-video-m {
+    padding-top: 0;
+    padding-bottom: 0; } }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #section-video-m {
+    padding-top: 0;
+    padding-bottom: 0; } }
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #section-video-m {
+    padding-top: 0;
+    padding-bottom: 0; } }
+
 .myCenter {
   display: flex;
   align-items: center;
@@ -8644,11 +8724,49 @@ textarea.form-control {
   background: url("../../assets/images/hero-image/fotor.jpg");
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   animation: blobMove 3.7s linear infinite; }
-  @media screen and (max-width: 600px) {
+  @media only screen and (min-width: 120px) and (max-width: 319px) {
+    .my-blob {
+      width: 100px;
+      height: 100px;
+      margin-top: 20%;
+      margin-bottom: 10%; } }
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    .my-blob {
+      width: 230px;
+      height: 230px;
+      margin-top: 20%;
+      margin-bottom: 10%; } }
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .my-blob {
+      width: 220px;
+      height: 220px;
+      margin-top: 20%;
+      margin-bottom: 10%; } }
+  @media only screen and (min-width: 769px) and (max-width: 1023px) {
+    .my-blob {
+      width: 250px;
+      height: 250px;
+      margin-top: 20%;
+      margin-bottom: 10%; } }
+  @media only screen and (min-width: 1024px) and (max-width: 1200px) {
     .my-blob {
       width: 300px;
       height: 300px;
-      margin-top: 20%;
+      margin-bottom: 10%; } }
+  @media only screen and (min-width: 1201px) and (max-width: 2559px) {
+    .my-blob {
+      width: 400px;
+      height: 400px;
+      margin-bottom: 10%; } }
+  @media only screen and (min-width: 2560px) and (max-width: 3439px) {
+    .my-blob {
+      width: 400px;
+      height: 400px;
+      margin-bottom: 10%; } }
+  @media only screen and (min-width: 3440px) {
+    .my-blob {
+      width: 400px;
+      height: 400px;
       margin-bottom: 10%; } }
 
 @keyframes blobMove {
@@ -8710,7 +8828,6 @@ textarea.form-control {
   to {
     opacity: 0; } }
   .slider-m .video-container-m {
-    background: url(../../assets/images/hero-image/videoThumbnail.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -8724,7 +8841,9 @@ textarea.form-control {
     opacity: 0;
     /* start faded out */
     transition: opacity 2s;
-    /* css fade in */ }
+    /* css fade in */
+    min-width: 100%;
+    height: 100%; }
     @media (min-aspect-ratio: 16 / 9) {
       .slider-m video {
         min-width: 100%;
@@ -8733,7 +8852,7 @@ textarea.form-control {
       .slider-m video {
         min-width: 100%;
         height: 100%; } }
-    @media (max-width: 768px) {
+    @media (max-width: 300px) {
       .slider-m video {
         display: none; } }
   .slider-m h1, .slider-m .h1 {
@@ -8785,31 +8904,31 @@ textarea.form-control {
   .card-item:hover {
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.08), -3px -3px 8px #f5efed; }
 
-@media only screen and (min-width: 120px) {
+@media only screen and (min-width: 120px) and (max-width: 319px) {
   .picture-m {
     width: 100px; } }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .picture-m {
     width: 140px; } }
 
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   .picture-m {
     width: 140px; } }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
   .picture-m {
     width: 140px; } }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
   .picture-m {
     width: 140px; } }
 
-@media only screen and (min-width: 1201px) {
+@media only screen and (min-width: 1201px) and (max-width: 2559px) {
   .picture-m {
     width: 140px; } }
 
-@media only screen and (min-width: 2560px) {
+@media only screen and (min-width: 2560px) and (max-width: 3439px) {
   .picture-m {
     width: 200px; } }
 
@@ -9089,7 +9208,21 @@ textarea.form-control {
         font-weight: 600; }
 
 .faq-m {
-  margin-bottom: 10vw; }
+  padding-bottom: 10vw !important; }
+  @media only screen and (min-width: 120px) and (max-width: 319px) {
+    .faq-m {
+      padding-bottom: 30vw !important;
+      margin-bottom: 30vw !important; } }
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    .faq-m {
+      padding-bottom: 30vw !important;
+      margin-bottom: 30vw !important; } }
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .faq-m {
+      padding-bottom: 25vw !important; } }
+  @media only screen and (min-width: 769px) and (max-width: 1023px) {
+    .faq-m {
+      padding-bottom: 25vw !important; } }
 
 .faq {
   padding: 150px 0;
@@ -9199,6 +9332,22 @@ textarea.form-control {
 .footer-m {
   background-color: var(--accent) !important;
   color: var(--primary) !important !important !important; }
+
+@media only screen and (min-width: 120px) and (max-width: 319px) {
+  .footer-logo-col img {
+    width: 50%; } }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .footer-logo-col img {
+    width: 50%; } }
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .footer-logo-col img {
+    width: 50%; } }
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  .footer-logo-col img {
+    width: 70%; } }
 
 .footer-mm {
   color: red !important; }

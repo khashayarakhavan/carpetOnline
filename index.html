@@ -14,7 +14,7 @@
     <!-- Header Start -->
     <!------------------------------>
     <header class="main-header position-fixed w-100">
-            <div class="container">
+            <div class="container margin-bottom-m">
                 <nav class="navbar navbar-expand-xl py-0">
                     <div class="logo">
                         <a class="navbar-brand py-0 me-0" href="#">
@@ -28,7 +28,7 @@
                         </a>
                     </div>
                     <a class="d-inline-block d-lg-block d-xl-none d-xxl-none  nav-toggler text-decoration-none"  data-bs-toggle="offcanvas" href="#offcanvasExample" aria-controls="offcanvasExample">
-                        <i class="ti ti-menu-2 text-warning" style="color: #718F94 !important;"></i>
+                        <i class="ti ti-menu-2 text-warning menu-mobile-m"></i>
                     </a>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">                                             
                             <ul class="navbar-nav me-auto">
@@ -62,25 +62,27 @@
                     <div class="logo">
                         <a class="navbar-brand py-0 me-0" href="#"><img src="./assets/images/Creato-logo.svg" alt=""></a>
                     </div> 
-                    <button type="button" class="btn-close text-reset  ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"><i class="ti ti-x text-warning"></i></button>
+                    <button type="button" class="btn-close text-reset  ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
+                        <i class="ti ti-x text-warning menu-mobile-m"></i>
+                    </button>
                 </div>
                 <div class="offcanvas-body pt-0">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link text-capitalize" aria-current="page" href="#service-section-m">Services</a>
+                            <a class="nav-link text-capitalize" id="menu-offcanvas-1" aria-current="page" href="#service-section-m">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-capitalize"href="#section-video-m">Videos</a>
+                            <a class="nav-link text-capitalize"  id="menu-offcanvas-2" href="#section-video-m">Videos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-capitalize"  href="#our-store">Our Crafts</a>
+                            <a class="nav-link text-capitalize"  id="menu-offcanvas-3" href="#our-store">Our Crafts</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-capitalize" href="#section-gallery">Gallery</a>
+                            <a class="nav-link text-capitalize"  id="menu-offcanvas-4" href="#section-gallery">Gallery</a>
                         </li>
                         </ul>
                         <div class="login d-block align-items-center mt-3">
-                            <a class="btn btn-warning text-capitalize w-100" href="#contact-us-m">contact us</a>
+                            <a class="btn btn-warning text-capitalize w-100"  id="menu-offcanvas-button" href="#contact-us-m">contact us</a>
                         </div>
                 </div>
             </div>
@@ -189,8 +191,8 @@
                         onended="playVideo(this)">
                         <source type="video/mp4" src="./assets/videos/lowMp4.mp4" media="all and (min-width:769px)">
                         <source type="video/webm" src="./assets/videos/lowWebm.webm" media="all and (min-width:769px)">
-                        <source type="video/mp4" src="./assets/videos/extLowMp4.mp4" media="all and (min-width:480px) and (max-width:768px)">
-                        <source type="video/webm" src="./assets/videos/extLowWebm.webm" media="all and (min-width:480px) and (max-width:768px)">
+                        <source type="video/mp4" src="./assets/videos/extLowMp4.mp4" media="all and (min-width:300px) and (max-width:768px)">
+                        <source type="video/webm" src="./assets/videos/extLowWebm.webm" media="all and (min-width:300px) and (max-width:768px)">
                         <small>THIS BROWSER DOES NOT HAVE NATIVE VIDEO SUPPORT</small>
                     </video>
                 </div>
@@ -621,7 +623,7 @@
                                     Nothing compares to a seamless experience with a team of experts who know the crafts inside out.
                                 </p>
                                 <div class="d-flex align-items-center">
-                                    <div class="avtar-img rounded-circle overflow-hidden"><img src="./assets/images/contact/freud2.png" class="img-fluid"></div>
+                                    <div class="avtar-img rounded-circle overflow-hidden"><img src="./assets/images/contact/freud.png" class="img-fluid"></div>
                                     <div class="name ps-3">
                                         <h6 class="text-white">Sigmund Freud</h6>
                                         <small class="d-block blue-light fw-500 fs-10 pb-0">B2B Customer</small>
